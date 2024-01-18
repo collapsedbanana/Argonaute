@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+@import '_buttons';
+@import '_typography';
+@import '_layout';
+@import '_animations';
+
+
+.NotreVision {
+    font-family: 'Jura', sans-serif;
+}
+
+// Styles pour les boutons
+.ButtonOrange {
+    background-color: #FFA500; // Couleur orange pour les boutons
+    color: white; // Couleur du texte
+    &:hover {
+        background-color: darken(#FFA500, 10%); // Assombrir légèrement au survol
+    }
+}
+
+

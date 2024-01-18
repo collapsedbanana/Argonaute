@@ -1,0 +1,21 @@
+// Presentation.scss
+.lottie-container {
+    display: flex;
+    flex-direction: row-reverse; // Inverser l'ordre des éléments flex
+    align-items: center;
+    justify-content: center;
+    background-color: #121212; // Couleur d'arrière-plan pour tout le conteneur
+    gap: 20px;
+    // Autres styles...
+  }
+  
+  .lottie-animation {
+    width: 200px; // Taille fixe pour l'animation Lottie
+    // Autres styles...
+  }
+  
+  .text-container {
+    flex-grow: 1;
+    // Autres styles...
+  }
+  

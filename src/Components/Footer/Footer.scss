@@ -1,0 +1,45 @@
+  $bg-color: #121212; // Couleur de fond
+  $line-color: #FFA500; // Couleur de la ligne
+
+  .footer {
+      font-family: 'Jura', sans-serif;
+      background-color: $bg-color;
+      color: #ffffff;
+
+      border-top: 2px solid $line-color; // Ajouter la ligne au-dessus du footer
+
+      .container {
+        display: flex;
+        padding: 1rem;
+        justify-content: space-between; // Pour aligner les sections horizontalement et les séparer
+      }
+
+      .contact-section {
+        align-items: flex-start; // Aligner la section Contact à gauche
+      }
+
+      .footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h5 {
+          text-transform: uppercase;
+        }
+
+        p, a {
+          color: #ffffff;
+          &:hover {
+            color: #555;
+          }
+        }
+      }
+
+      .footer-bottom {
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 0.5rem 0;
+        text-align: center;
+      }
+    }
+
+  // Ajoutez ici vos autres styles SCSS

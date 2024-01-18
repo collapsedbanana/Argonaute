@@ -1,0 +1,59 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Reset link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style the app bar */
+.AppBar {
+  background-color: #123456; /* Replace with your preferred color */
+}
+
+/* Style the toolbar */
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the menu icon button */
+.MenuButton {
+  color: #fff; /* Replace with your preferred color */
+}
+
+/* Style for large screens */
+.DesktopMenu {
+  display: flex;
+}
+
+.DesktopMenuButton {
+  margin-left: 10px; /* Spacing between buttons */
+  font-weight: 500; /* Font weight for buttons */
+  color: #fff; /* Color for buttons */
+}
+
+/* Style for mobile menu */
+.MobileMenu {
+  display: none;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .DesktopMenu {
+    display: none;
+  }
+
+  .MobileMenu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MobileMenuButton {
+    padding: 10px; /* Padding for mobile menu items */
+  }
+}
+
+
+/* Add other styles here as needed */

@@ -1,0 +1,26 @@
+// ReactLottie.scss
+.lottie-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+    background-color: #121212; // Couleur d'arrière-plan pour tout le conteneur
+    
+  
+    .lottie-animation {
+      flex: 0 0 auto;
+      width: 400px;
+      height: auto;
+      margin-left: 15px;
+    }
+  
+    .text-container {
+      max-width: calc(100% - 220px);
+      overflow-wrap: break-word;
+      color : white;
+      margin:0 25px 0 40px;
+
+    }
+  }
+  
